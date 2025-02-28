@@ -5,21 +5,21 @@ const Sponsors = () => {
       <div className="flex justify-center gap-12 mt-12">
         <div className="p-6 bg-white rounded-lg w-56 h-56 flex items-center justify-center shadow-lg">
           <img
-            src="/us-soccer.png" // Replace with your image path
+            src="/images/us-soccer.png" // Replace with your image path
             alt="US Soccer"
             className="w-full h-full object-contain"
           />
         </div>
         <div className="p-6 bg-white rounded-lg w-56 h-56 flex items-center justify-center shadow-lg">
           <img
-            src="/geico.png" // Replace with your image path
+            src="/images/geico.png" // Replace with your image path
             alt="Geico"
             className="w-full h-full object-contain"
           />
         </div>
         <div className="p-6 bg-white rounded-lg w-56 h-56 flex items-center justify-center shadow-lg">
           <img
-            src="/chick-fil-a.png" // Replace with your image path
+            src="/images/chick-fil-a.png" // Replace with your image path
             alt="Chick-Fil-A"
             className="w-full h-full object-contain"
           />

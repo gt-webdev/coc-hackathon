@@ -4,7 +4,7 @@ const Landing = () => {
       id="home"
       className="font-[Nunito] h-screen flex flex-col items-center justify-center text-white text-center relative"
       style={{
-        backgroundImage: 'url("/klaus-cartoon.png")',
+        backgroundImage: 'url("/images/klaus-cartoon.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
