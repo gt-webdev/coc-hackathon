@@ -9,12 +9,12 @@ const Landing = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-40 bg-white opacity-80"></div>
+      <div className="absolute inset-0 bg-white opacity-80"></div>
 
       <div className="relative z-10">
-        <h1 className="text-5xl text-blue-950 font-bold">Ramblin' Hacks!</h1>
+        <h1 className="text-9xl text-blue-950 font-bold">Ramblin' Hacks!</h1>
         <br />
-        <h2 className="text-3xl text-blue-950 font-bold">April 5th - 6th</h2>
+        <h2 className="text-5xl text-blue-950 font-bold">April 5th - 6th</h2>
         <br />
         <br />
         <div className="mt-6 flex justify-center gap-6">
