@@ -1,12 +1,6 @@
 const Schedule = () => {
   const schedule = [
     {
-      date: "April 3rd",
-      events: [
-        { time: "3:00 PM - 5:00 PM", event: "Registration" },
-      ],
-    },
-    {
       date: "April 5th",
       events: [
         { time: "8:00 AM - 9:30 AM", event: "Welcome Breakfast, Check-In, & Late Registration" },

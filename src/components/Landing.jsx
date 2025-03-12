@@ -14,7 +14,9 @@ const Landing = () => {
       <div className="relative z-10">
         <h1 className="text-9xl text-blue-950 font-bold">Ramblin' Hacks!</h1>
         <br />
-        <h2 className="text-5xl text-blue-950 font-bold">April 5th - 6th</h2>
+        <h2 className="text-6xl text-blue-950 font-bold">Inaugural Hackathon</h2>
+        <br />
+        <h2 className="text-3xl text-blue-950 font-bold">April 5th - 6th</h2>
         <br />
         <br />
         <div className="mt-6 flex justify-center gap-6">
@@ -28,9 +30,29 @@ const Landing = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
             className="bg-blue-950 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-500"
           >
-            Apply Here
+            Register
           </a>
         </div>
+      </div>
+
+      {/* Scroll Down Arrow - centered and resized */}
+      <div className="absolute bottom-10 flex justify-center w-full">
+        <a href="#about">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            className="w-[80px] h-[80px] text-blue-950 animate-bounce"
+          >
+            <path
+              d="M12 5v14m-7-7l7 7 7-7"
+              strokeWidth="4" // Moderately increased stroke width
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </a>
       </div>
     </section>
   );
