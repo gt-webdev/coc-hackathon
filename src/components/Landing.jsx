@@ -30,7 +30,7 @@ const Landing = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
             className="bg-blue-950 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-500"
           >
-            Registration
+            Register
           </a>
         </div>
       </div>
