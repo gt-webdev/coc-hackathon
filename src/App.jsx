@@ -5,6 +5,7 @@ import Tracks from "./components/Tracks";
 import Schedule from "./components/Schedule";
 import Sponsors from "./components/Sponsors";
 // import FAQs from "./components/FAQs";
+import Bottom from "./components/Bottom";
 
 const App = () => {
   return (
@@ -12,10 +13,11 @@ const App = () => {
       <Navbar />
       <Landing />
       <About />
+      <Sponsors/>
       <Tracks />
       <Schedule />
-      <Sponsors />
       {/* <FAQs /> */}
+      <Bottom />
     </div>
   );
 };
