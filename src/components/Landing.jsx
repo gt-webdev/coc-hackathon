@@ -1,8 +1,10 @@
+import home from '../assets/home-icon.svg'
+
 const Landing = () => {
   return (
     <section
       id="home"
-      className="font-[Nunito] h-screen flex flex-col items-center justify-center text-white text-center relative"
+      className="font-[Roboto] h-screen flex flex-col items-center justify-center text-white text-center relative"
       style={{
         backgroundImage: 'url("/images/klaus-cartoon.png")',
         backgroundSize: 'cover',
@@ -12,27 +14,20 @@ const Landing = () => {
       <div className="absolute inset-0 bg-white opacity-80"></div>
 
       <div className="relative z-10">
-        <h1 className="text-9xl text-blue-950 font-bold">Ramblin' Hacks!</h1>
+        <h2 className="text-2xl text-black">Introducing the Inaugural GT College of Computing x Corporate Affiliates Program Hackathon</h2>
         <br />
-        <h2 className="text-6xl text-blue-950 font-bold">Inaugural Hackathon</h2>
+        <img src={home} alt="home-visual" className="w-300 h-auto items-center" />
         <br />
-        <h2 className="text-3xl text-blue-950 font-bold">April 5th - 6th</h2>
+        <h2 className="text-3xl text-black">April 5th-6th | Tech Square Research Building | Georgia Tech</h2>
         <br />
-        <br />
-        <div className="mt-6 flex justify-center gap-6">
-          <a
-            href="#about"
-            className="bg-blue-950 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-500"
-          >
-            Learn More
-          </a>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
-            className="bg-blue-950 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-500"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#003057] text-white px-6 py-3 rounded-[32px] text-lg font-semibold hover:bg-[#397BB1]"
           >
             Register
           </a>
-        </div>
       </div>
 
       {/* Scroll Down Arrow - centered and resized */}
@@ -43,11 +38,11 @@ const Landing = () => {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            className="w-[80px] h-[80px] text-blue-950 animate-bounce"
+            className="w-[50px] h-[50px] text-blue-950 animate-bounce"
           >
             <path
               d="M12 5v14m-7-7l7 7 7-7"
-              strokeWidth="4" // Moderately increased stroke width
+              strokeWidth="3" // Moderately increased stroke width
               strokeLinecap="round"
               strokeLinejoin="round"
             />

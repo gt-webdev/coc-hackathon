@@ -1,7 +1,8 @@
 const Schedule = () => {
   const schedule = [
     {
-      date: "April 5th",
+      day: "Saturday",
+      date: "April 5th, 2025",
       events: [
         { time: "8:00 AM - 9:30 AM", event: "Welcome Breakfast, Check-In, & Late Registration" },
         { time: "10:00 AM - 10:30 AM", event: "Hackathon Kickoff" },
@@ -13,7 +14,8 @@ const Schedule = () => {
       ],
     },
     {
-      date: "April 6th",
+      day: "Sunday",
+      date: "April 6th, 2025",
       events: [
         { time: "9:30 AM - 10:30 AM", event: "Breakfast" },
         { time: "12:00 PM", event: "Hackathon Ends" },
@@ -25,23 +27,27 @@ const Schedule = () => {
   ];
 
   return (
-    <section id="schedule" className="font-[Nunito] py-20 px-8 bg-gray-100">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-5xl font-bold mb-6">Event Schedule</h2>
+    <section id="schedule" className="font-[Roboto] py-25 px-8 bg-[#F9F6E5] flex justify-center item-center">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-5xl font-bold mb-6 text-[#003057] font-[Anton]">Event Schedule</h2>
         <br />
-        {schedule.map(({ date, events }, index) => (
-          <div key={index} className="mb-8">
-            <br />
-            <h3 className="text-3xl font-bold text-blue-950">{date}</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-30">
+        {schedule.map(({ day, date, events }, index) => (
+          <div key={index} className="bg-[#003057] shadow rounded-lg p-6 text-white text-left">
+            <h3 className="text-3xl font-bold">{day}</h3>
+            <h4 className="text-lg mb-8 text-[#99CCF6]">{date}</h4>
             <ul className="mt-2 space-y-4">
               {events.map(({ time, event }, i) => (
-                <li key={i} className="p-4 bg-white shadow rounded-lg text-left">
-                  <span className="font-semibold">{time}:</span> {event}
+                <li key={i} className="">
+                  <span className="font-semibold text-lg">{time}:</span> 
+                  <br />
+                  <span className="text-xl">{event}</span>
                 </li>
               ))}
             </ul>
           </div>
         ))}
+        </div>
       </div>
     </section>
   );
