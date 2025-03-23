@@ -14,10 +14,8 @@ const Landing = () => {
       <div className="absolute inset-0 bg-white opacity-80"></div>
 
       <div className="relative z-10">
-        <h2 className="text-2xl text-black">Introducing the Inaugural GT College of Computing x Corporate Affiliates Program Hackathon</h2>
-        <br />
-        <img src={home} alt="home-visual" className="w-300 h-auto items-center" />
-        <br />
+        <h2 className="text-2xl text-black mt-5">Introducing the Inaugural GT College of Computing x Corporate Affiliates Program Hackathon</h2>
+        <img src={home} alt="home-visual" className="w-275 h-auto items-center" />
         <h2 className="text-3xl text-black">April 5th-6th | Tech Square Research Building | Georgia Tech</h2>
         <br />
           <a
@@ -31,7 +29,7 @@ const Landing = () => {
       </div>
 
       {/* Scroll Down Arrow - centered and resized */}
-      <div className="absolute bottom-10 flex justify-center w-full">
+      <div className="absolute bottom-0 flex justify-center w-full">
         <a href="#about">
           <svg
             xmlns="http://www.w3.org/2000/svg"
