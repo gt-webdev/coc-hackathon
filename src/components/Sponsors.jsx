@@ -15,6 +15,16 @@ const Sponsors = () => {
       image: "/images/elevance-health.png",
       url: "https://www.elevancehealth.com/",
     },
+    {
+      name: "Goldman Sachs",
+      image: "/images/goldman_sachs.png",
+      url: "https://www.goldmansachs.com/"
+    },
+    {
+      name: "Microsoft",
+      image: "/images/microsoft.png",
+      url: "https://www.microsoft.com/en-us/"
+    }
   ];
 
   return (
@@ -22,7 +32,7 @@ const Sponsors = () => {
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-5xl font-bold text-[#003057] font-[Anton]">Our Sponsors</h2>
         <h3 className="text-xl text-black py-2">More to Come!</h3>
-        <div className="flex flex-wrap md:flex-nowrap justify-center gap-20 mt-12">
+        <div className="flex flex-wrap justify-center gap-20 mt-12">
           {sponsors.map((sponsor) => (
             <a 
               key={sponsor.name}
