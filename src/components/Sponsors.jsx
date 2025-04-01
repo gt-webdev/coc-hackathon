@@ -24,6 +24,16 @@ const Sponsors = () => {
       name: "Microsoft",
       image: "/images/microsoft.png",
       url: "https://www.microsoft.com/en-us/"
+    },
+    {
+      name: "Fanduel",
+      image: "/images/fanduel.png",
+      url: "https://www.fanduel.com/"
+    },
+    {
+      name: "The Trade Desk",
+      image: "/images/the-trade-desk.png",
+      url: "https://www.thetradedesk.com/"
     }
   ];
 
@@ -42,7 +52,7 @@ const Sponsors = () => {
               className="w-72 h-72 flex flex-col items-center justify-center shadow-lg"
             >
               <img src={sponsor.image} alt={sponsor.name} className="w-full h-full object-contain"/>
-              {sponsor.name === "US Soccer" && (
+              {(sponsor.name === "US Soccer" || sponsor.name === "Fanduel") && (
                 <span className="mt-4 text-black font-extrabold text-2xl">{sponsor.name}</span>
               )}
             </a>
