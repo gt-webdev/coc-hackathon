@@ -49,7 +49,7 @@ const Sponsors = () => {
               href={sponsor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-72 h-72 flex flex-col items-center justify-center shadow-lg"
+              className="w-72 h-72 flex flex-col items-center justify-center"
             >
               <img src={sponsor.image} alt={sponsor.name} className="w-full h-full object-contain"/>
               {(sponsor.name === "US Soccer" || sponsor.name === "Fanduel") && (

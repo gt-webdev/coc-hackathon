@@ -20,7 +20,7 @@ const Schedule = () => {
         { time: "12:00 PM", event: "Hackathon Ends" },
         { time: "12:00 PM - 1:30 PM", event: "Lunch" },
         { time: "1:30 PM - 4:00 PM", event: "Judging & Skill-based Talk" },
-        { time: "4:00 PM - 5:00 PM", event: "Dinner Served" },
+        { time: "4:00 PM", event: "Dinner Served" },
         { time: "4:15 PM - 5:15 PM", event: "Award Ceremony and Closing Remarks" },
       ],
     },
