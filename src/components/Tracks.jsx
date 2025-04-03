@@ -1,15 +1,15 @@
 const Tracks = () => {
   const tracks = [
     {
-      title: "Generative AI in Healthcare",
+      title: "Healthcare Technology",
       color: "bg-[#B3A369]",
     },
     {
-      title: "Smart Soccer",
+      title: "Soccer Intelligence and Kickoff Commerce",
       color: "bg-[#B3A369]",
     },
     {
-      title: "Sustainability",
+      title: "FinTech Forward",
       color: "bg-[#B3A369]",
     },
   ];
@@ -41,7 +41,7 @@ const Tracks = () => {
               className={`relative w-64 h-64 mx-auto ${track.color} text-white rounded-full shadow-lg 
               transition-transform duration-300 ease-in-out hover:scale-110 clip-hexagon`}
             >
-              <h3 className="absolute inset-0 text-center flex justify-center items-center text-2xl font-semibold">
+              <h3 className="absolute inset-0 text-center flex justify-center items-center text-2xl font-semibold px-4 leading-tight whitespace-normal">
                 {track.title}
               </h3>
             </div>
