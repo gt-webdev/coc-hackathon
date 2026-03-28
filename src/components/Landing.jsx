@@ -16,10 +16,10 @@ const Landing = () => {
       <div className="relative z-10">
         <h2 className="text-2xl text-black mt-5">Introducing the Inaugural GT College of Computing x Corporate Affiliates Program Hackathon</h2>
         <img src={home} alt="home-visual" className="w-275 h-auto items-center" />
-        <h2 className="text-3xl text-black">April 5th-6th | Tech Square Research Building | Georgia Tech</h2>
+        <h2 className="text-3xl text-black">April 10th-11th | Klaus Advanced Computing Building | 266 Ferst Dr, Atlanta, GA 30332</h2>
         <br />
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
+            href="https://forms.gle/WyMsG5KNWLtXRrQo8"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#003057] text-white px-6 py-3 rounded-[32px] text-lg font-semibold hover:bg-[#397BB1]"
