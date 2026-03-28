@@ -42,7 +42,7 @@ const Tracks = () => {
               transition-transform duration-300 ease-in-out hover:scale-110 clip-hexagon`}
             >
               <h3 className="absolute inset-0 text-center flex justify-center items-center text-2xl font-semibold px-4 leading-tight whitespace-normal">
-                {track.title}
+                {/* {track.title} */}
               </h3>
             </div>
           ))}

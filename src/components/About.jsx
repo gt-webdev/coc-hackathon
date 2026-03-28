@@ -24,7 +24,7 @@ const About = () => {
           {/* Left: text */}
           <div className="flex-1">
             <p className="text-2xl text-left">
-              Georgia Tech's College of Computing introduces our inaugural co-sponsored hackathon: Ramblin' Hacks! This dynamic 2-day event will bring together talented students to tackle real-world challenges through creative coding and innovative solutions.
+              Georgia Tech's College of Computing introduces our second co-sponsored hackathon: Ramblin' Hacks! This dynamic 2-day event will bring together talented students to tackle real-world challenges through creative coding and innovative solutions.
             </p>
             <br />
             <div className="flex flex-row gap-2 items-center mt-6">
@@ -35,21 +35,19 @@ const About = () => {
               >
                 <img src={calendar} alt="calendar icon" className="w-11 h-auto" />
               </a>
-              <p className="text-2xl text-start">April 5th–6th</p>
+              <p className="text-2xl text-start">April 10th-11th</p>
             </div>
 
             <br />
             <div className="flex flex-row gap-2 items-center">
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Tech+Square+Research+Building,+85+5th+St+NW,+Atlanta,+GA+30332"
-                target="_blank"
+                href="https://www.google.com/maps/place/Klaus+Advanced+Computing+Building,+Atrium/@33.7776843,-84.3987563,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5052dfab4d669:0x8399d96b4a30b241!8m2!3d33.7776843!4d-84.3961814!16s%2Fg%2F11ff1yjjs8?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D"
                 rel="noopener noreferrer"
               >
                 <img src={mappin} alt="map pin icon" className="w-11 h-auto cursor-pointer" />
               </a>
               <p className="text-2xl text-start">
-                Tech Square Research Building <br />
-                85 5th St NW, Atlanta, GA 30332
+                Klaus advanced computing building | 266 Ferst Dr, Atlanta, GA 30332
               </p>
             </div>
           </div>
@@ -61,6 +59,7 @@ const About = () => {
               alt="Google Maps location"
               className="w-full max-w-md rounded-xl shadow-md"
             />
+            
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Navbar = () => {
           </ul>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeim4kVrtPL-fXyObyGl3Ex_9zSzKHW5ErLHfmCcVV6-Iy9xQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-block bg-[#003057] hover:bg-[#1E5684] text-white font-semibold py-2 px-4 rounded-[32px] transition"
@@ -67,7 +67,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdmn-T8aAt8niUGLmrv7As7lZohtcov3WQFY7R-DGW5oxmRNQ/viewform"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeim4kVrtPL-fXyObyGl3Ex_9zSzKHW5ErLHfmCcVV6-Iy9xQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="items-center text-lg text-white block w-fit mx-auto"
