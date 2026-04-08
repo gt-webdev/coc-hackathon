@@ -1,17 +1,22 @@
 const Tracks = () => {
+
   const tracks = [
     {
-      title: "Healthcare Technology",
+      title: "AI - Cox, inc",
       color: "bg-[#B3A369]",
     },
     {
-      title: "Soccer Intelligence and Kickoff Commerce",
+      title: "Financial Operations - NCR Voyix",
       color: "bg-[#B3A369]",
     },
     {
-      title: "FinTech Forward",
+      title: "Sports - Play On! Sports",
       color: "bg-[#B3A369]",
     },
+    {
+      title: "Healthcare - Elevance Health",
+      color: "bg-[#B3A369]",
+    }
   ];
 
   return (
@@ -34,7 +39,7 @@ const Tracks = () => {
         <h2 className="text-5xl font-bold mb-6 text-[#003057] font-[Anton]">Tracks</h2>
         <br />
         <br />
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {tracks.map((track, index) => (
             <div
               key={index}
@@ -42,7 +47,7 @@ const Tracks = () => {
               transition-transform duration-300 ease-in-out hover:scale-110 clip-hexagon`}
             >
               <h3 className="absolute inset-0 text-center flex justify-center items-center text-2xl font-semibold px-4 leading-tight whitespace-normal">
-                {/* {track.title} */}
+                {track.title}
               </h3>
             </div>
           ))}

@@ -14,7 +14,7 @@ const Landing = () => {
       <div className="absolute inset-0 bg-white opacity-80"></div>
 
       <div className="relative z-10">
-        <h2 className="text-2xl text-black mt-5">Introducing the Inaugural GT College of Computing x Corporate Affiliates Program Hackathon</h2>
+        <h2 className="text-2xl text-black mt-5">Introducing the 2nd annual GT College of Computing x Corporate Affiliates Program Hackathon</h2>
         <img src={home} alt="home-visual" className="w-275 h-auto items-center" />
         <h2 className="text-3xl text-black">April 10th-11th | Klaus Advanced Computing Building | 266 Ferst Dr, Atlanta, GA 30332</h2>
         <br />
